@@ -1,6 +1,6 @@
 [package]
 name = "mcpx"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2021"
 authors = ["MCPX Developers"]
 description = "A Rust SDK for the Model Context Protocol (MCP)"
@@ -40,6 +40,7 @@ tokio-test = "0.4"
 tempfile = "3.9"
 mockall = "0.12"
 wiremock = "0.5"
+
 
 
 
