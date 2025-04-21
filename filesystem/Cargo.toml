@@ -1,0 +1,24 @@
+[package]
+name = "mcpx-filesystem"
+version = "0.1.0"
+edition = "2021"
+description = "Filesystem MCP Server - Model Context Protocol implementation for filesystem operations"
+authors = ["MCPX Team"]
+
+[dependencies]
+rmcp = { version = "0.1", features = ["server"] }
+tokio = { version = "1.28", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+schemars = "0.8"
+thiserror = "1.0"
+anyhow = "1.0"
+walkdir = "2.3"
+futures = "0.3"
+chrono = "0.4"
+log = "0.4"
+env_logger = "0.10"
+
+[[bin]]
+name = "mpcx-filesystem"
+path = "src/main.rs"
